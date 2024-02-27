@@ -1,5 +1,6 @@
 import './App.css';
 import { Container } from 'react-bootstrap';
+import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <main className='py-3'>
         <Container>
-          <h1>Welcome to justPhones</h1>
+          <HomePage />
         </Container>
       </main>
       <Footer />

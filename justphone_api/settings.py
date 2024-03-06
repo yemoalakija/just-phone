@@ -65,6 +65,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+COR_ALLOWE_CREDENTIALS = True
+CORS_ORIGIN_WHITELIST = [
+    "https://probable-zebra-6qxg6vvgwgwfrgxp-3000.app.github.dev",
+]
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (

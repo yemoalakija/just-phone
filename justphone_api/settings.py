@@ -65,8 +65,11 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-COR_ALLOWE_CREDENTIALS = True
+COR_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
+    "https://probable-zebra-6qxg6vvgwgwfrgxp-3000.app.github.dev",
+]
+CORS_ALLOWED_ORIGINS = [
     "https://probable-zebra-6qxg6vvgwgwfrgxp-3000.app.github.dev",
 ]
 

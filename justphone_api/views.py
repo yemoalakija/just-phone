@@ -6,5 +6,5 @@ from rest_framework.response import Response
 
 @api_view()
 def root_view(request):
-    """Root endpoint for the --phoneplus-- drf_api."""
-    return Response({"Message": "Welcome to the phonePlus API!"})
+    """Root endpoint for the --justPhones-- drf_api."""
+    return Response({"Message": "Welcome to the justPhones API!"})

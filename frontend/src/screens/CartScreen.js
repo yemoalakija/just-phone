@@ -76,7 +76,7 @@ function CartScreen({ match, location, history }) {
                                                 variant='light'
                                                 onClick={() => removeFromCartHandler(item.product)}
                                             >
-                                                <i className='fas fa-trash'></i>
+                                                <i className='fa-solid fa-trash'></i>
                                             </Button>
                                         </Col>
                                     </Row>

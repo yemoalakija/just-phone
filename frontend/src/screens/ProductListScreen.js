@@ -62,7 +62,7 @@ function ProductListScreen({ history, match }) {
 
                 <Col className='text-right'>
                     <Button className='my-3' onClick={createProductHandler}>
-                        <i className='fas fa-plus'></i> Create Product
+                        <i className='fa-solid fa-plus'></i> Create Product
                     </Button>
                 </Col>
             </Row>
@@ -104,12 +104,12 @@ function ProductListScreen({ history, match }) {
                                             <td>
                                                 <LinkContainer to={`/admin/product/${product._id}/edit`}>
                                                     <Button variant='light' className='btn-sm'>
-                                                        <i className='fas fa-edit'></i>
+                                                        <i className='fa-solid fa-edit'></i>
                                                     </Button>
                                                 </LinkContainer>
 
                                                 <Button variant='danger' className='btn-sm' onClick={() => deleteHandler(product._id)}>
-                                                    <i className='fas fa-trash'></i>
+                                                    <i className='fa-solid fa-trash'></i>
                                                 </Button>
                                             </td>
                                         </tr>

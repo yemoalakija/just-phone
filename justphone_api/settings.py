@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost",
@@ -129,7 +129,7 @@ ROOT_URLCONF = "justphone_api.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, "frontend/build")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -158,7 +158,7 @@ if "DEV" in os.environ:
 else:
     database_url = os.getenv("DATABASE_URL") or ""
     DATABASES = {"default": dj_database_url.parse(database_url)}
-    print("Connected to the database")
+    # print("Connected to the database")
 
 
 # Password validation
@@ -195,7 +195,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+STATICFILES_DIRS = [BASE_DIR / "frontend/build/static"]
 
 CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL")
 MEDIA_URL = "/media/"

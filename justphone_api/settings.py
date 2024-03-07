@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     "django_resized",
-    "django-extensions",
+    "django_extensions",
     "base.apps.BaseConfig",
 ]
 

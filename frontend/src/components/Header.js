@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <header>
-            <Navbar bg="success" variant="dark" expand="lg" collapseOnSelect>
+            <Navbar bg="info" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
                         <Navbar.Brand>justPhone</Navbar.Brand>

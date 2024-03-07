@@ -75,7 +75,7 @@ function ProductScreen({ match, history }) {
                                         </ListGroup.Item>
 
                                         <ListGroup.Item>
-                                            <Rating value={product.rating} text={`${product.numReviews} reviews`} color={'#f8e825'} />
+                                            <Rating value={product.rating} text={`${product.numReviews} reviews`} color={'#bb9bb0'} />
                                         </ListGroup.Item>
 
                                         <ListGroup.Item>
@@ -104,7 +104,7 @@ function ProductScreen({ match, history }) {
                                                 <Row>
                                                     <Col>Status:</Col>
                                                     <Col>
-                                                        {product.countInStock > 0 ? 'In Stock' : 'Out of Stock'}
+                                                        {product.countInStock > 0 ? 'Available' : 'Unavailable'}
                                                     </Col>
                                                 </Row>
                                             </ListGroup.Item>
@@ -158,7 +158,7 @@ function ProductScreen({ match, history }) {
                                         {product.reviews.map((review) => (
                                             <ListGroup.Item key={review._id}>
                                                 <strong>{review.name}</strong>
-                                                <Rating value={review.rating} color='#f8e825' />
+                                                <Rating value={review.rating} color='#bb9bb0' />
                                                 <p>{review.createdAt.substring(0, 10)}</p>
                                                 <p>{review.comment}</p>
                                             </ListGroup.Item>

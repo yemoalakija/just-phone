@@ -73,7 +73,7 @@ function CartScreen({ match, location, history }) {
                                         <Col md={1}>
                                             <Button
                                                 type='button'
-                                                variant='light'
+                                                variant='info'
                                                 onClick={() => removeFromCartHandler(item.product)}
                                             >
                                                 <i className='fas fa-trash'></i>
@@ -98,7 +98,7 @@ function CartScreen({ match, location, history }) {
                     <ListGroup.Item>
                         <Button
                             type='button'
-                            className='btn-block'
+                            className='btn-block bg-info'
                             disabled={cartItems.length === 0}
                             onClick={checkoutHandler}
                         >

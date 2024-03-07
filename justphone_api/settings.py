@@ -33,6 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost",
+    "127.0.0.1",
 ]
 
 
@@ -157,7 +158,7 @@ if "DEV" in os.environ:
 else:
     database_url = os.getenv("DATABASE_URL") or ""
     DATABASES = {"default": dj_database_url.parse(database_url)}
-    # print("Connected to the database")
+    print("Connected to the database")
 
 
 # Password validation

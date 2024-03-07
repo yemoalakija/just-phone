@@ -60,14 +60,14 @@ function OrderListScreen({ history }) {
                                         <td>{order.isPaid ? (
                                             order.paidAt.substring(0, 10)
                                         ) : (
-                                                <i className='fa-solid fa-check' style={{ color: 'red' }}></i>
+                                                <i className='fas fa-check' style={{ color: 'red' }}></i>
                                             )}
                                         </td>
 
                                         <td>{order.isDelivered ? (
                                             order.deliveredAt.substring(0, 10)
                                         ) : (
-                                                <i className='fa-solid fa-check' style={{ color: 'red' }}></i>
+                                                <i className='fas fa-check' style={{ color: 'red' }}></i>
                                             )}
                                         </td>
 

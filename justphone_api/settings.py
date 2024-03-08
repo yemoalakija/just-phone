@@ -34,7 +34,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "https://justphone-porfolio-project5-049f39193013.herokuapp.com",
+    "justphone-porfolio-project5-049f39193013.herokuapp.com",
 ]
 
 # Application definition

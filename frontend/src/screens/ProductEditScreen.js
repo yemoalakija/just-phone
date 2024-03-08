@@ -136,7 +136,6 @@ function ProductEditScreen({ match, history }) {
                                 </Form.Control>
                             </Form.Group>
 
-
                             <Form.Group controlId='image'>
                                 <Form.Label>Image</Form.Label>
                                 <Form.Control
@@ -159,7 +158,6 @@ function ProductEditScreen({ match, history }) {
                                 {uploading && <Loader />}
 
                             </Form.Group>
-
 
                             <Form.Group controlId='brand'>
                                 <Form.Label>Brand</Form.Label>
@@ -210,7 +208,7 @@ function ProductEditScreen({ match, history }) {
                             </Form.Group>
 
 
-                            <Button type='submit' variant='primary'>
+                            <Button type='submit' variant='info'>
                                 Update
                         </Button>
 

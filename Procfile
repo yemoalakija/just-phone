@@ -1,1 +1,1 @@
-web: gunicorn justphone_api.wsgi:application
+web: gunicorn justphone_api.wsgi --log-file -

@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "https://justphone-porfolio-project5-049f39193013.herokuapp.com/",
+  "proxy": "http://127.0.0.1:8000/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

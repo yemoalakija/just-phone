@@ -395,13 +395,10 @@ The libraries used in this project are located in the requirements.txt file and 
 | Site User      | Navigate through a paginated list of products                                                       | &check;   |
 | Site User      | Search for products based on specific criteria                                                      | &check;   |
 | Site User      | Create an account                                                                                   | &check;   |
-| Site User      | Add products to wishlist                                                                            | &check;   |
 | Site User      | Leave reviews and ratings for products                                                              | &check;   |
 | Site Admin     | Manage inventory of products                                                                        | &check;   |
 | Site Admin     | Manage user orders                                                                                  | &check;   |
-| Site Admin     | Generate reports on sales and customer activity                                                     | &check;   |
 | Site Admin     | Manage user accounts                                                                                | &check;   |
-| Site Admin     | Customize the site's appearance and settings                                                        | &check;   |
 | Site Admin     | Manage customer support requests                                                                    | &check;   |
 
 ## Code Validation

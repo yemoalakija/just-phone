@@ -1,23 +1,23 @@
-# **Yemo Blog | Website**
+# **![justPhones logo](screenshots/logo.png)  justPhones | WebApp**
 
-Yemo Blog is an engaging platform designed exclusively for registered users, providing them with the opportunity to create posts, engage in comments, follow interesting content, seamlessly update posts, and curate their profiles with ease.
+Welcome to 'justPhones,' your one-stop destination for the latest and greatest mobile phones, offering a curated selection of top-notch devices to meet all your communication and technology needs.
 
-This dynamic website was meticulously crafted as part of Portfolio Project #4 (Full-Stack Toolkit) for the prestigious Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net).
+Immerse yourself in the artistry of this cutting-edge website, a masterpiece born from Portfolio Project #5 (Full-Stack Toolkit) during the esteemed Diploma in Full Stack Software Development program at [Code Institute](https://www.codeinstitute.net).
 
-[View live website here](https://yemos-blog-website-3ef5a934b3dc.herokuapp.com/)
+[View live website here](https://justphone-porfolio-project5-049f39193013.herokuapp.com/)
 
-![Yemo Blog responsive design](assets/images/responsiveness.png)
+![Responsiveness](screenshots/responsiveness.png)
 
 ## Table of Content
 
-- [**Yemo Blog | Website**](#yemo-blog--website)
+- [**  justPhones | WebApp**](#--justphones--webapp)
   - [Table of Content](#table-of-content)
   - [**Project**](#project)
   - [Objective](#objective)
   - [Site Users Goal](#site-users-goal)
   - [Site Owners Goal](#site-owners-goal)
   - [Project Management](#project-management)
-    - [Kanban Board](#kanban-board)
+    - [GitHub Project](#github-project)
     - [Database Schema](#database-schema)
 - [**User Experience (UX)**](#user-experience-ux)
   - [Wireframes](#wireframes)
@@ -73,27 +73,28 @@ This dynamic website was meticulously crafted as part of Portfolio Project #4 (F
 
 ## Objective
 
-The primary objective of Yemo Blog is to offer a user-friendly and interactive platform where registered individuals can effortlessly create, share, and engage with diverse content, fostering a vibrant community of creators and readers.
+At justPhones, our core mission is to provide a captivating and interactive online space where registered users can easily browse, purchase the latest mobile phones, and share their valuable reviews on their purchases.
 
 ## Site Users Goal
 
-The ultimate goal for users on the Yemo Blog site is to seamlessly express their thoughts and ideas by creating, sharing, and interacting with posts, comments, and profiles within a dynamic and welcoming online community.
+The ultimate goal for users visiting the justPhones website is to seamlessly explore, purchase the latest mobile phones, and accessories while sharing their valuable reviews to enhance the shopping experience.
 
 ## Site Owners Goal
 
-The overarching goal for the site owner of Yemo Blog is to cultivate a thriving digital space where users can actively participate, fostering engagement and content creation, ultimately building a vibrant and loyal community around the platform. Additionally, the owner aims to showcase the versatility and capabilities of the Full Stack Software Development skills acquired through the Diploma program at Code Institute.
+The site owner's goal for justPhones is to establish a reputable online platform that offers a wide range of top-quality mobile phones, accessories, and exceptional customer service to drive customer satisfaction and loyalty. Additionally, the owner aims to showcase the versatility and capabilities of the Full Stack Software Development skills acquired through the Diploma program at Code Institute and research.
 
 ## Project Management
 
-### Kanban Board
+### GitHub Project
 
-I've been using the application [Kanban board](https://kanbantool.com/kanban-board) and the project board in GitHub to keep my project together. It has been working really well and has helped me structure up my work a lot. Trello was used on a more general plan and GitHub was used to plan and organize my user stories.
+I've been using the application [GitHub project](https://github.com/users/yemoalakija/projects/2). It has been working really well and has helped me structure up my work a lot.
 
-<details><summary><b>Kanban Board</b></summary>
+<details><summary><b>GitHub Project</b></summary>
 
-![Kanban Borad](assets/images/kanbanboard_1.png)
+![GitHub Project](screenshots/github_project_workflow.png)
 
-![User Stories](assets/images/user_story_2.png)
+[User story](https://github.com/users/yemoalakija/projects/3/views/1)
+![User Stories](screenshots/user_story.png)
 </details><br/>
 
 [Back to top](<#table-of-content>)
@@ -160,7 +161,7 @@ The user stories for this project are presented below to provide clarity on the 
 
 ## Site Structure
 
-Yemo Blog in two parts: **when the user is logged out** and **when the user is logged in**. Depending on login status different pages is available for the user. When the user is logged out, such user can only view posts, comments, likes but cannot perform any of the mentioned activities EXCEPT logged in. If you are logged in as an administrator an *`admin` area* is available. The site has an minimalistic, clean and intuitive design that makes the site easy to navigate for the user.
+justPhones in two parts: **when the user is logged out** and **when the user is logged in**. Depending on login status different pages is available for the user. When the user is logged out, such user can only view posts, comments, likes but cannot perform any of the mentioned activities EXCEPT logged in. If you are logged in as an administrator an *`admin` area* is available. The site has an minimalistic, clean and intuitive design that makes the site easy to navigate for the user.
 
 Read more about the different choices in the [Features](<#features>) section.
 
@@ -170,7 +171,7 @@ Read more about the different choices in the [Features](<#features>) section.
 
 * ### Color Scheme
 
-The color scheme chosen for Yemo Blog site was based on Bootstrap colour scheme and my personal reference.
+The color scheme chosen for justPhones site was based on Bootstrap colour scheme and my personal reference.
 
 <details><summary><b>Color Scheme</b></summary>
 
@@ -206,7 +207,7 @@ The navigation bar is very clean and straight forward. Depending if you  are log
 * `Blogs` - Lists all available blogs.
 * `Category` - Blogs category.
 * `Search` - Makes blogs search possible.
-* `Login` / `Sign Up` - Gives the user the opportunity to log in or sign up if not already a registered user at Yemo Blog.
+* `Login` / `Sign Up` - Gives the user the opportunity to log in or sign up if not already a registered user at justPhones.
 
 <details><summary><b>Navigation - User Not Logged In</b></summary>
 
@@ -287,7 +288,7 @@ On this page the user can view and update their own profile page. And update pas
 
 ### **Admin Area**
 
-On this page the `administrator` (or other superuser decided by Yemo Blog) can *`approve`* / *`unapprove`* / *`publish`* / *`unpublish`* and *`delete`* blog posts, `comments` etc. General information about *number of users*, *number of `comments`*, *`number of reviews`*, *`unapproved comments`* is also being showed on the page.
+On this page the `administrator` (or other superuser decided by justPhones) can *`approve`* / *`unapprove`* / *`publish`* / *`unpublish`* and *`delete`* blog posts, `comments` etc. General information about *number of users*, *number of `comments`*, *`number of reviews`*, *`unapproved comments`* is also being showed on the page.
 
 <details><summary><b>Admin Area</b></summary>
 
@@ -296,7 +297,7 @@ On this page the `administrator` (or other superuser decided by Yemo Blog) can *
 
 ### **Sign Up**
 
-If the site visitor has no registered user at Yemo Blog, they can sign up.
+If the site visitor has no registered user at justPhones, they can sign up.
 
 <details><summary><b>Sign Up</b></summary>
 
@@ -305,7 +306,7 @@ If the site visitor has no registered user at Yemo Blog, they can sign up.
 
 ### **Sign In**
 
-On this page the user can sign in to Yemo Blog website.
+On this page the user can sign in to justPhones website.
 
 <details><summary><b>Sign In</b></summary>
 
@@ -323,7 +324,7 @@ The logout is carefully crafted, once clicked on, it logout the user.
 
 ### **Footer**
 
-The footer area includes short information about Yemo Blog contact information and links to relevant social media.
+The footer area includes short information about justPhones contact information and links to relevant social media.
 
 <details><summary><b>Footer</b></summary>
 
@@ -457,7 +458,7 @@ The libraries used in this project are located in the requirements.txt file and 
 
 ## Code Validation
 
-The code on the 'Yemo Blog' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service and JSHint. Errors were at first found on the site in the W3C Markup Validation Service but could quite easily be fixed (see bugs section).
+The code on the 'justPhones' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service and JSHint. Errors were at first found on the site in the W3C Markup Validation Service but could quite easily be fixed (see bugs section).
 
 ### Markup Validation
 
@@ -906,7 +907,7 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 ![Heroku Step 31](assets/images/heroku_31.png)
 </details><br />
 
-The live link to the `Yemo Blog` site on Heroku an be found [here](https://yemos-blog-website-3ef5a934b3dc.herokuapp.com/). And the Github repository can be found [here](https://github.com/yemoalakija/Blog).
+The live link to the `justPhones` site on Heroku an be found [here](https://yemos-blog-website-3ef5a934b3dc.herokuapp.com/). And the Github repository can be found [here](https://github.com/yemoalakija/Blog).
 
 [Back to top](<#table-of-content>)
 

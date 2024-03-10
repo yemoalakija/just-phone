@@ -101,9 +101,7 @@ I've been using the application [GitHub project](https://github.com/users/yemoal
 
 ### Database Schema
 
-I employed a modeling tool called [Graph Models](https://django-extensions.readthedocs.io/en/latest/graph_models.html) to construct the database schema. In essence, this tool visualizes the intricate relationships between various models within the database, all tied to our application. Graph Models generates a .dot file, which can be conveniently transformed into a more user-friendly design using the dreampuf application.
-
-This approach not only simplifies the representation of the database structure but also facilitates better understanding and communication.
+To create an intuitive and visually appealing representation of the database schema, I utilized a powerful modeling tool called [Graph Models](https://django-extensions.readthedocs.io/en/latest/graph_models.html). This tool generates a .dot file that captures the intricate relationships between different models in our application's database. To enhance the design, I transformed the .dot file into a more user-friendly format using the dreampuf application.
 
 <details><summary><b>Database Schema</b></summary>
 
@@ -114,7 +112,7 @@ This approach not only simplifies the representation of the database structure b
 
 ## Wireframes
 
-The wireframes for the website were meticulously crafted using the [Balsamiq](https://balsamiq.cloud) software, encompassing both desktop and mobile interfaces. While the text content remained fluid throughout the wireframing phase, it's essential to note that the finalized design may exhibit variances from the initial wireframes. These differences stem from deliberate design decisions made during the creative process, enhancing the overall aesthetics and user experience.
+The wireframes for the website were meticulously crafted using the [Draw.io](https://draw.io) software, encompassing both desktop and mobile interfaces. Throughout the wireframing phase, the text content remained flexible, allowing for adjustments and improvements to enhance the final design. It's important to note that the finalized design may differ slightly from the initial wireframes, as deliberate design decisions were made to optimize aesthetics and user experience.
 
 <details><summary><b>Wireframes</b></summary>
 
@@ -128,22 +126,18 @@ The user stories for this project are presented below to provide clarity on the 
 ### Site User
 |  | | |
 |:-------:|:--------|:--------|
-| As a Site User | I can view a list of posts | &check; |
-| As a Site User | I can post | &check; |
-| As a Site User | I can click on a specific post to read | &check; |
-| As a Site User | I can like and unlike a review so that it is possible for me to interact with the review | &check; |
-| As a Site User | I can view the number of likes on each review so that I can see how popular a specific review is | &check; |
-| As a Site User | I can navigate easy on the site through paginated list of posts so that I feel comfortable using the site | &check; |
-| As a Site User | I can view comments on a specific review so that I can read the conversations between different users on the site | &check; |
-| As a Site User | I can sign up an account so that I can like and comment on reviews, create a profile page, create own reviews and edit / remove my reviews | &check; |
-| As a Site User | I can create a profile page so that other reviewers can read about who I am | &check; |
-| As a Site User | I can comment on a review so that I can be involved in the conversation | &check; |
-| As a Site User | I can edit my comment so that I can change the content if needed | &check; |
-| As a Site User | I can remove my review so that I have full control of my reviews | &check; |
-| As a Site User | I can choose to see my own reviews so that I can find them easily | &check; |
-| As a Site User | I can create a new review so that I can contribute to with new content to Review Alliance | &check; |
-| As a Site User | I can log out from the site so that I can feel safe that nobody can access my information | &check; |
-| As a Site User | I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | &check; |
+| As a Site User | I can view a list of available mobile phones | &check; |
+| As a Site User | I can search for a specific mobile phone | &check; |
+| As a Site User | I can view the details of a specific mobile phone | &check; |
+| As a Site User | I can add a mobile phone to my cart | &check; |
+| As a Site User | I can view the items in my cart | &check; |
+| As a Site User | I can proceed to checkout and make a purchase | &check; |
+| As a Site User | I can create an account to save my personal information | &check; |
+| As a Site User | I can be sure that my personal details are safe when purchasing from the site | &check; |
+| As a Site User | I can view my order history | &check; |
+| As a Site User | I can leave a review for a purchased mobile phone | &check; |
+| As a Site User | I can log out from the site | &check; |
+| As a Site User | I can receive visual feedback when interacting with the site | &check; |
 
 ### Site Admin
 
@@ -161,7 +155,10 @@ The user stories for this project are presented below to provide clarity on the 
 
 ## Site Structure
 
-justPhones in two parts: **when the user is logged out** and **when the user is logged in**. Depending on login status different pages is available for the user. When the user is logged out, such user can only view posts, comments, likes but cannot perform any of the mentioned activities EXCEPT logged in. If you are logged in as an administrator an *`admin` area* is available. The site has an minimalistic, clean and intuitive design that makes the site easy to navigate for the user.
+
+## User Experience
+
+justPhones is divided into two parts: **when the user is logged out** and **when the user is logged in**. Depending on the login status, different pages are available for the user. When the user is logged out, they can only view products and product ratings but cannot perform any of the mentioned activities, except when logged in. If you are logged in as an administrator, an *`admin` area* is available to perform CRUD functionalities. The site features a minimalistic, clean, and intuitive design that makes it easy to navigate for the user.
 
 Read more about the different choices in the [Features](<#features>) section.
 
@@ -180,11 +177,11 @@ The color scheme chosen for justPhones site was based on Bootstrap colour scheme
 
 * ### Typography
 
-The fonts used for the site is `Roboto`, which is sans-serif.
+The fonts used for the site is `Trebuchet MS`, which is sans-serif.
 
-* `Roboto` is used generally in the website with different weigth as needed. It's easy to read and matches the minimalistic style that I wanted the site to have.
+* `Trebuchet` is used generally in the website with different weights as needed. It's easy to read and matches the minimalistic style that I wanted the site to have.
 
-<details><summary><b>Google Font - Roboto</b></summary>
+<details><summary><b>Trebuchet - Font</b></summary>
 
 ![Google Fonts Roboto](assets/images/google_fonts_roboto.png)
 </details>
@@ -199,14 +196,12 @@ The features of the site are listed below.
 
 ### **Navigation**
 
-The navigation bar is very clean and straight forward. Depending if you  are logged in or not different menus are visible for the site user. If a user login, the user has the ability to post, comment, etc. An extra menu item is visible if you are logged in as an `administrator`.
+The navigation bar is very clean and straight forward. Depending if you  are logged in or not different menus are visible for the site user. If a user login, the user has the ability to place other, review products etc. An extra menu item is visible if you are logged in as an `administrator`.
 
 *Links that are visible to logged out users**
 
-* `Home` - The home page.
-* `Blogs` - Lists all available blogs.
-* `Category` - Blogs category.
-* `Search` - Makes blogs search possible.
+* `Home` - The home page and list of available products.
+* `Search` - Search button, to search for a specific brand in mind.
 * `Login` / `Sign Up` - Gives the user the opportunity to log in or sign up if not already a registered user at justPhones.
 
 <details><summary><b>Navigation - User Not Logged In</b></summary>
@@ -223,10 +218,8 @@ The navigation bar is very clean and straight forward. Depending if you  are log
 
 All of the links that are visible to a not logged in user plus the ones below.
 
-* `Create` New Post - Lets the user create a new blog post.
-* `Comment`/`Reply` - Lists all comments/replies to a blog post.
-* `Profile` Page - Shows logged in users profile page.
-* `Logout` - Logs out the user.
+* `Profile` Page - Shows the profile page of the logged-in user.
+* `Logout` - Logs out the user from the justPhones application.
 
 <details><summary><b>Navigation - User Logged In</b></summary>
 
@@ -242,40 +235,30 @@ All of the links that are visible to a not logged in user plus the ones below.
 
 All of the links above plus the one below.
 
-* Admin Area - Gives the administrator a view with information about i.e. total number of users, number of comments and number of posts. In this view the administrator also can `publish` / `unpublish` / `approve` / `unapprove` `reviews`, `approve` / `unapprove` `comments` and `delete` blog posts.
+* Admin Area - Gives the administrator a view with information about i.e. total number of users, number of comments and number of posts. In this view the administrator also can `delete a user account` / `make a user an admin` / `purchase` / `review`, `add products` / and `delete products`.
 
 <details><summary><b>Navigation - Admin Logged In</b></summary>
 
 ![Navigation Small - Admin Logged In](assets/images/admin_logged_in.png)
 </details><br/>
 
-### **Create Post**
+### **Adding Product**
 
-On this page the registered and logged in user can create their own blog and post it. Click on the profile name then on `My Profile`, there a link to a create blog post.
+An `admin` add products as shown below:
 
-<details><summary><b>Profile Page</b></summary>
+<details><summary><b>Admin Page</b></summary>
 
-![Profile Page](assets/images/profile_page.png)
+![Product adding](assets/images/profile_page.png)
 </details>
 
-<details><summary><b>Create Blog</b></summary>
+### **Update Product**
 
-![Add Blog](assets/images/add_blog.png)
-</details><br/>
+This page allows the `admin` to update product details if necessary, as shown below:
 
-### **Update Post**
+<details><summary><b>Product Update</b></summary>
 
-On this page the registered and logged in user can update their own blogs. The user will click on `My Blogs` on the `Profile Page`, this will display the list of blogs a User has. Through this view, a user han `update` and `delete` owned blogs.
-
-<details><summary><b>List of Owned Blogs</b></summary>
-
-![List of Owned Blogs](assets/images/my_blogs.png)
+![Product Update](assets/images/my_blogs.png)
 </details>
-
-<details><summary><b>Update Blog</b></summary>
-
-![Update Blog](assets/images/update_blog.png)
-</details><br/>
 
 ### **Profile Page**
 
@@ -284,15 +267,6 @@ On this page the user can view and update their own profile page. And update pas
 <details><summary><b>User Profile Page</b></summary>
 
 ![User Profile Page](assets/images/profile_page.png)
-</details><br/>
-
-### **Admin Area**
-
-On this page the `administrator` (or other superuser decided by justPhones) can *`approve`* / *`unapprove`* / *`publish`* / *`unpublish`* and *`delete`* blog posts, `comments` etc. General information about *number of users*, *number of `comments`*, *`number of reviews`*, *`unapproved comments`* is also being showed on the page.
-
-<details><summary><b>Admin Area</b></summary>
-
-![Admin Area](assets/images/admin_logged_in.png)
 </details><br/>
 
 ### **Sign Up**
@@ -324,7 +298,7 @@ The logout is carefully crafted, once clicked on, it logout the user.
 
 ### **Footer**
 
-The footer area includes short information about justPhones contact information and links to relevant social media.
+The footer area includes short information about justPhones builder.
 
 <details><summary><b>Footer</b></summary>
 
@@ -333,22 +307,22 @@ The footer area includes short information about justPhones contact information 
 
 ### **Flash Messages and confirmation pages to the user**
 
-The sites incorporates flash messages and confirmation pages when an action has been performed (i.e. `delete/update` actions). Examples of this in the screenshots below.
+The sites incorporates flash messages and confirmation pages before and when an action has been performed.
 
 <details><summary><b>Confirmation Messages</b></summary>
 
-![Registration Success](assets/images/success_1.png)
-![Profil Image Update Success](assets/images/success_2.png)
-![Blog Add Success](assets/images/success_3.png)
-![Update Blog Success](assets/images/success_4.png)
-![Delete Blog Success](assets/images/success_5.png)
+![Login to review](assets/images/success_1.png)
+![Can't review if you already reviewed the same product](assets/images/success_2.png)
+![Payment process](assets/images/success_3.png)
+![Login to make a purchase](assets/images/success_4.png)
 </details><br/>
 
 ### Features Left to Implement
 
 * Add more automated testing
-* Add 'current page is active' in navbar
-* Add image resize functionality
+* User ability to delete owned account
+* User edit and update review
+* User ability to delete/cancle product order after getting to payment page
 * And few other features to be explored after
 
 [Back to top](<#table-of-content>)
@@ -365,18 +339,18 @@ The sites incorporates flash messages and confirmation pages when an action has 
 ## Frameworks & Software
 
 * [Bootstrap](https://getbootstrap.com/) - A CSS framework that helps building solid, responsive, mobile-first sites
-* [Django](https://www.djangoproject.com/) - A model-view-template framework used to create the Review | Alliance site
-* [Balsamiq](https://balsamiq.com/) - Used to create the wireframe.
+* [Django](https://www.djangoproject.com/) - A model-view-template framework
+used to create the justPhones template.
+& [Redux](https://redux.js.org) - Heavily liberate the power of Redux, Redux Dev tools to build the site store.
+* [Draw.io](https://draw.io/) - Used to create the wireframe.
 * [Github](https://github.com/) - Used to host and edit the website.
 * [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal in [GitHub Codespace](https://www.github.com) used to create, edit and push changes to the GitHub repository.
 * [Heroku](https://en.wikipedia.org/wiki/Heroku) - A cloud platform that the application is deployed to.
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - Used to test performance of site.
 * [Am I Responsive](https://www.amresponsive.com/) - Used for responsiveness check.
-* [a11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) - Used to test color contrast on the site
 * [Graph Models](https://django-extensions.readthedocs.io/en/latest/graph_models.html) - Used to create a *.dot file of all models in the project.
 * [Favicon](https://favicon.io/) - Used to create the favicon.
 * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Used to debug and test responsiveness.
-* [Kanban Board](https://kanbanboard.com/) - A project management tool to organize the project.
 * [Cloudinary](https://cloudinary.com/) - A service that hosts all static files in the project.
 * [HTML Validation](https://validator.w3.org/) - Used to validate HTML code
 * [CSS Validation](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
@@ -411,50 +385,25 @@ The libraries used in this project are located in the requirements.txt file and 
 
 ## Testing User Stories
 
-* As a Site User | I can view a list of blog post so that I can select one to read
-    * At the top of the site there is a navigation bar with a link that lists all blog posts when the user clicks on it.
+## User Stories
 
-* As a Site User | I can click on a specific post so that I can read it in detail
-   * At the top of the site there is a navigation bar with a link that lists all blogs post.
-
-* As a Site User | I can like and unlike a post so that it is possible for me to interact with the comments
-    * When the user is logged it is possible to click on a heart on the blog detail page to like / unlike a review.
-
-* As a Site User | I can view the number of likes on each blog so that I can see how popular a specific review is
-    * On the blog detail page the user can see how many likes the specific blog has.
-
-* As a Site User | I can navigate easy on the site through paginated list of posts so that I feel comfortable using the site
-    * On the blogs pages the pagination is activated when there are more than 4 blogs post on a page.
-
-* As a Site User | I can view comments on a specific blog so that I can read the conversations between different users on the site
-    * When the user clicks on a specific blog, the comment section can, in an easily way, be viewed.
-
-* As a Site User | I can sign up an account so that I can like and comment on blogs, create a profile page, create own reviews and edit / remove my blog
-    * In the navigation bar the user can click the Login / Sign up link to either login or sign up for a new account. When this is done the user can interact on the page as stated in the user story).
-
-* As a Site User | I can create a profile page so that other bloggers can read about who I am
-    * If a user is registered and logged in there is a 'Show Profile'-page in the navigation menu where the user can fill in profile details. The profile is shown for the site users in the blog posts.
-
-* As a Site User | I can comment on a review so that I can be involved in the conversation
-    * When the user is logged in they can write a comment on a specific blog.
-
-* As a Site Admin | I can log out from the site so that I can feel safe that nobody can access my information
-   * When the admin is logged in it is possible to choose the 'Log Out'-option in the navigation menu.
-
-* As a Site Admin | I can create, read, update and delete blogs post so that I can manage my review content
-    * When the user is logged in as an administrator / superuser a new item show up in the navigation menu called 'Admin Area'. In this area the user can read, update and delete blogs. Creation of blogs can be made the same way as any logged in user. Updating blogs can only be made if the administrator has written the original blog.
-
-* As a Site Admin | I can approve reviews so that I can secure high quality of the content
-    * When the user is logged in as an administrator / superuser a new item show up in the navigation menu called 'Admin Area'. In this area the user can approve / unapprove / publish / unpublish blogs.
-
-* As a Site Admin | I can approve and disapprove comments so that I can secure a safe environment for the Site Users
-    * When the user is logged in as an administrator / superuser a new item show up in the navigation menu called 'Admin Area'. In this area the user can approve / unapprove comments.
-
-* As a Site Admin | I can create draft reviews so that I can finish writing the content later
-    * When a user is logged in as an administrator they have the possibility to create a review they and set the status to published or draft.
-
-* As a Site Admin | I can access an admin area so that I can get a general understanding of logged in users, number of likes and number of posts
-    * In the admin area there is an summary area in the top with general information about the site (i.e. number of users, number of blogs / comments that need approval)
+| User Type      | User Story                                                                                          | Completed |
+|----------------|-----------------------------------------------------------------------------------------------------|-----------|
+| Site User      | View a list of products                                                                             | &check;   |
+| Site User      | View the details of a specific product                                                              | &check;   |
+| Site User      | Add products to cart                                                                                | &check;   |
+| Site User      | View the number of items in cart                                                                    | &check;   |
+| Site User      | Navigate through a paginated list of products                                                       | &check;   |
+| Site User      | Search for products based on specific criteria                                                      | &check;   |
+| Site User      | Create an account                                                                                   | &check;   |
+| Site User      | Add products to wishlist                                                                            | &check;   |
+| Site User      | Leave reviews and ratings for products                                                              | &check;   |
+| Site Admin     | Manage inventory of products                                                                        | &check;   |
+| Site Admin     | Manage user orders                                                                                  | &check;   |
+| Site Admin     | Generate reports on sales and customer activity                                                     | &check;   |
+| Site Admin     | Manage user accounts                                                                                | &check;   |
+| Site Admin     | Customize the site's appearance and settings                                                        | &check;   |
+| Site Admin     | Manage customer support requests                                                                    | &check;   |
 
 ## Code Validation
 
@@ -512,8 +461,6 @@ In addition to tests stated above I have performed a few manual tests. Below the
 | &check; | Typing in a incorrect URL on the page loads the 404 error page
 | &check; | Pasting page that needs authentication loads a forbidden page
 | &check; | Clicking the nav logo loads the home page
-| &check; | Clicking the Home button on the nav bar loads the home page and lists all reviews
-| &check; | Clicking the All button on the nav bar lists all blogs
 
 | Status | **Main Website - User Logged In**
 |:-------:|:--------|
@@ -521,47 +468,23 @@ In addition to tests stated above I have performed a few manual tests. Below the
 | &check; | Pasting page that needs authentication loads a forbidden page
 | &check; | Clicking the nav logo loads the home page
 | &check; | Clicking the Home button on the nav bar loads the home page and lists all blogs
-| &check; | In the detail view the logged in user can comment on a blog
+| &check; | In the product detail view the logged in user can write review on a product
 | &check; | In the logged in user menu the Admin Area is not visible
 | &check; | Clicking the Show Profile Page button in the logged in user menu loads the My Profile page
 
 | Status | **Main Website - Admin Logged In**
 |:-------:|:--------|
 | &check; | Clicking the Admin Area button in the logged in user menu loads the Admin Area Page
-| &check; | In the review section. Clicking the approve / unapprove / publish / unpublish toggles the approve and status signs
-| &check; | The view button is only visible if a review is published
-| &check; | In the comment section. Clicking the approve / unapprove toggles the approve and status signs
+| &check; | In the users section, an `admin` can delete/register a user
 | &check; | Total Users shows correct number of total users
-| &check; | Total blog shows the correct number of total blogs
-| &check; | Total Comments shows the correct number of total comments
-| &check; | Reviews that need approval shows the correct numer of reviews that need approval
-| &check; | Comments that need approval shows the correct number of comments that need approval
-
- Status | **Create A Blog - User Logged In**
-|:-------:|:--------|
-| &check; | Title field is required
-| &check; | Title field does not accept empty field
-| &check; | Title field does not accept just spaces
-| &check; | Body field is required
-| &check; | Body field does not accept empty field
-| &check; | Category field defaults to Uncategorized
 
 Status | **Create A New User - User Logged Out**
 |:-------:|:--------|
 | &check; | Username field is required
 | &check; | Username field does not accept empty field
 | &check; | Email field does not accept just spaces
-| &check; | Email field is optional
 | &check; | Password field does not accept empty field
 | &check; | Success flash message is displayed when the user submits the create a new user form
-| &check; | Default biography is visible in about page (with i.e default featured image)
-
-Status | **Create A Profile Page - User Logged In**
-|:-------:|:--------|
-| &check; | Default featured image is visible the first time a user opens the 'my profile' page
-| &check; | First Name field is not required as it has already been provided when creating account
-| &check; | Last Name field is not required
-| &check; | Last Name field does not accept empty field
 
 ### Automated Testing
 
@@ -627,12 +550,17 @@ Additional testing of the application was conducted by people outside of the sof
 
 ## Known bugs
 
-There are Bootstrap 5.3 CSS errors
+  - There are Bootstrap 5.3 CSS errors
+  - manifest.json file, complain missing in the console but it's in the project
+  - Some other console errors too but nothing much to worry about as they're generated by the browser
 
 ### Fixed Bugs
 
-* Bug: When click on notification, it says server error, contact the site admin. This is now handled and fixed.
-* Bug: also while updating a post, it says error 508. I've also handle it.
+**Bugs:**
+
+  - Whitehouse refused to render the template in production. I tackled this issue by conducting extensive research on platforms like Stack Overflow and Google, as well as seeking guidance from my knowledgeable copilot friend.
+
+  - Integrating PayPal into the project posed numerous challenges. However, I successfully resolved the issue using the same approach as before.
 
 ### Unfixed Bugs
 
@@ -656,7 +584,7 @@ There are Bootstrap 5.3 CSS errors
 
 The project was deployed to [Heroku](https://www.heroku.com). To deploy, please follow the process below:
 
-1. To begin with we need to create a GitHub repository from the [this repo](https://github.com/yemoalakija/Blog.git) by following the link and then click 'Use this template'.
+1. To begin with we need to create a GitHub repository from the [this repo](https://github.com/yemoalakija/just-phone.git) by following the link and then click 'Use this template'.
 
 <details><summary><b>Heroku Deployment - Step 1</b></summary>
 
@@ -880,11 +808,11 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 
 * Configure static files:
   ```bash
-  STATIC_URL = '/assets/'
+  STATIC_URL = '/static/'
   STATICFILES_DIR = [
-    os.path.join(BASE_DIR / 'assets')
+    os.path.join(BASE_DIR / 'frontend/build')
   ]
-  STATIC_ROOT = os.path.join(BASE_DIR / 'staticfiles')
+  STATIC_ROOT = os.path.join(BASE_DIR / 'static')
   STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 * We run: `python manage.py collectstatic` for whitenoise to takecare of the static files of the project.
@@ -907,7 +835,7 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 ![Heroku Step 31](assets/images/heroku_31.png)
 </details><br />
 
-The live link to the `justPhones` site on Heroku an be found [here](https://yemos-blog-website-3ef5a934b3dc.herokuapp.com/). And the Github repository can be found [here](https://github.com/yemoalakija/Blog).
+The live link to the `justPhones` site on Heroku an be found [here](https://justphone-porfolio-project5-049f39193013.herokuapp.com). And the Github repository can be found [here](https://github.com/yemoalakija/just-phone).
 
 [Back to top](<#table-of-content>)
 
@@ -938,7 +866,9 @@ To clone and set up this project you need to follow the steps below.
 ![Clone](assets/images/github_clone_01.png)
 </details><br />
 
-5. To be able to get the project to work you need to install the requirements. This can be done by using the command below:
+5. `cd` `frontend` directory, run `npm install` to get the node_modules setup. Then navigate back to the parent directory where the backend files are to continue with the backend setups
+
+6. To be able to get the project to work you need to install the requirements. This can be done by using the command below:
 
 * ```pip install -r requirements.txt``` - This command downloads and install all required dependencies that is stated in the requirements file.
   Note: You can as well setup a virtual environment before installing the `requirements.txt` file:
@@ -947,7 +877,9 @@ To clone and set up this project you need to follow the steps below.
 6. The next step is to set up the environment file so that the project knows what variables that needs to be used for it to work. Environment variables are usually hidden due to sensitive information. It's very important that you don't push the `.env` file to Github (this can be secured by adding `.env` to the .gitignore-file). The variables that are declared in the `.env` file needs to be added to the Heroku config vars. Don't forget to do necessary migrations before trying to run the server.
 
 * ```python manage.py migrate``` - This will do the necessary migrations.
-* ```python manage.py runserver``` - If everything is setup correctly the project is now live locally.
+* ```python manage.py runserver```
+
+`cd` to the frontend directory and run `npm start` to start the frontend local server - If everything is setup correctly the project is now live locally.
 
 <details><summary><b>Setup .env</b></summary>
 
@@ -968,12 +900,14 @@ To clone and set up this project you need to follow the steps below.
 
 ## Technical
 
-* Inspiration regarding this project was taken from Django Walkthrough project and personal vibes to always wanting to create a blog website.
-* There are still more functions I will continue to explore and improve on this project in the future.
+* This project drew inspiration from Travis e-commerce project and my personal passion for creating a streamlined online store where customers can purchase phones and gadgets. The implementation of the `paypal api` allows for secure and convenient payment processing.
+
+* I am committed to continuously enhancing and expanding the functionality of this project in the future. Thank you for your support.
 
 # Acknowledgements
 
-This site was created for Portfolio Project #4 (Full-Stack Tolkin) - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for relevant feedback during the project.
+This site was created as part of Portfolio Project #5 (Full-Stack Tolkin) for the Diploma in Full Stack Software Development at the [Code Institute](https://www.codeinstitute.net). I would like to express my gratitude to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for providing valuable feedback throughout the project.
+
 
 *Adeyemo Alakija, 2024*
 

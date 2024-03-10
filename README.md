@@ -10,7 +10,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
 
 ## Table of Content
 
-- [**  justPhones | WebApp**](#--justphones--webapp)
+- [**justPhones | WebApp**](#--justphones--webapp)
   - [Table of Content](#table-of-content)
   - [**Project**](#project)
   - [Objective](#objective)
@@ -29,10 +29,9 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
 - [**Features**](#features)
   - [**Existing Features**](#existing-features)
     - [**Navigation**](#navigation)
-    - [**Create Post**](#create-post)
-    - [**Update Post**](#update-post)
+    - [**Adding Product**](#adding-product)
+    - [**Update Product**](#update-product)
     - [**Profile Page**](#profile-page)
-    - [**Admin Area**](#admin-area)
     - [**Sign Up**](#sign-up)
     - [**Sign In**](#sign-in)
     - [**Sign Out**](#sign-out)

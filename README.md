@@ -182,7 +182,7 @@ The fonts used for the site is `Trebuchet MS`, which is sans-serif.
 
 <details><summary><b>Trebuchet - Font</b></summary>
 
-![Google Fonts Roboto](assets/images/google_fonts_roboto.png)
+![Google Fonts Roboto](screenshots/Trebuchet-MS-Font.webp)
 </details>
 
 [Back to top](<#table-of-content>)
@@ -205,12 +205,12 @@ The navigation bar is very clean and straight forward. Depending if you  are log
 
 <details><summary><b>Navigation - User Not Logged In</b></summary>
 
-![Navigation - User Not Logged In](assets/images/navbar_not_logged_in.png)
+![Navigation - User Not Logged In](screenshots/navbar_not_logged_in.png)
 </details>
 
 <details><summary><b>Navigation - Small Screen User Not Logged In</b></summary>
 
-![Navigation - User Not Logged In](assets/images/small_screen_navbar_not_logged_in.png)
+![Navigation - User Not Logged In](screenshots/small_screen_navbar_not_logged_in.png)
 </details><br/>
 
 *Links that are visible to logged in users*
@@ -238,34 +238,36 @@ All of the links above plus the one below.
 
 <details><summary><b>Navigation - Admin Logged In</b></summary>
 
-![Navigation Small - Admin Logged In](assets/images/admin_logged_in.png)
+![Navigation Small - Admin Logged In](screenshots/admin_logged_in.png)
 </details><br/>
 
 ### **Adding Product**
 
-An `admin` add products as shown below:
+An `admin` add products by clicking on the `+CREATE PRODUCT` `button`, then it goes to the page where to add a product along with other details as shown below:
 
-<details><summary><b>Admin Page</b></summary>
+<details><summary><b>Admin Product Adding Page</b></summary>
 
-![Product adding](assets/images/profile_page.png)
+![Product adding](screenshots/product_adding_page.png)
+![Product adding2](screenshots/product_adding_page2.png)
 </details>
 
 ### **Update Product**
 
-This page allows the `admin` to update product details if necessary, as shown below:
+To update a product, the `admin` clicks on the `edit` icon at the front of the product then it will take the `admin` to the product `update` page as shown below:
 
 <details><summary><b>Product Update</b></summary>
 
-![Product Update](assets/images/my_blogs.png)
+![Product Update](screenshots/select_product_to_update.png)
+![Product Update](screenshots/product_update_page.png)
 </details>
 
 ### **Profile Page**
 
-On this page the user can view and update their own profile page. And update passwords.
+On this page the user can view and update their own profile page. And update passwords. Also see their orders.
 
 <details><summary><b>User Profile Page</b></summary>
 
-![User Profile Page](assets/images/profile_page.png)
+![User Profile Page](screenshots/user_profile_page.png)
 </details><br/>
 
 ### **Sign Up**
@@ -274,7 +276,7 @@ If the site visitor has no registered user at justPhones, they can sign up.
 
 <details><summary><b>Sign Up</b></summary>
 
-![Sign Up](assets/images/sign_up.png)
+![Sign Up](screenshots/register_page.png)
 </details><br/>
 
 ### **Sign In**
@@ -283,7 +285,7 @@ On this page the user can sign in to justPhones website.
 
 <details><summary><b>Sign In</b></summary>
 
-![Sign In](assets/images/sign_in.png)
+![Sign In](screenshots/sign_in.png)
 </details><br/>
 
 ### **Sign Out**
@@ -292,7 +294,7 @@ The logout is carefully crafted, once clicked on, it logout the user.
 
 <details><summary><b>Logout</b></summary>
 
-![Logout](assets/images/sign_out.png)
+![Logout](screenshots/sign_out.png)
 </details><br/>
 
 ### **Footer**
@@ -850,27 +852,30 @@ It is possible to do a independent copy of a GitHub Repository by forking the Gi
 
 ## Cloning And Setting Up This Project
 
-To clone and set up this project you need to follow the steps below.
 
-1. When you are in the repository, find the code tab and click it.
-2. To the left of the green `codespace` `button`, press the 'code' menu. There you will find a link to the repository. Click on the clipboard icon to copy the URL.
-3. Use an IDE and open Git Bash. Change directory to the location where you want the cloned directory to be made.
-4. Type `git clone`, and then paste the URL that you copied from GitHub. Press enter and a local clone will be created.
+## Cloning and Setting Up the Project
 
-<details><summary><b>Github Create Local Clone</b></summary>
+To clone and set up this project, follow the steps below:
+
+1. Open the repository and click on the "Code" tab.
+2. In the dropdown menu, click on the "Clone" button and copy the repository URL.
+3. Open your preferred IDE and navigate to the directory where you want to clone the project.
+4. Open Git Bash and run the command `git clone [repository URL]` to create a local clone.
+
+<details><summary><b>GitHub Clone</b></summary>
 
 ![Clone](assets/images/github_clone_01.png)
 </details><br />
 
-5. `cd` `frontend` directory, run `npm install` to get the node_modules setup. Then navigate back to the parent directory where the backend files are to continue with the backend setups
+5. Navigate to the `frontend` directory and run `npm install` to set up the required node_modules. Then, go back to the parent directory where the backend files are located.
 
-6. To be able to get the project to work you need to install the requirements. This can be done by using the command below:
+6. Install the project requirements by running the command:
 
 * ```pip install -r requirements.txt``` - This command downloads and install all required dependencies that is stated in the requirements file.
   Note: You can as well setup a virtual environment before installing the `requirements.txt` file:
     * In your local machine of IDE, in the directory where the repo is cloned, run: `python -m venv "YOUR_VIRTUAL_ENVIRONMENT_NAME"` The `virtual_envronemnt_name` can be any name you want. Then you need to activate the envronment by running: `.\VIRTUAL_ENV_NAME\Script\activate` on windows or `source VIRTUAL_ENV_NAME/bin/activate` on macOS. Type `deactivate` to stop the virtual environment.
 
-6. The next step is to set up the environment file so that the project knows what variables that needs to be used for it to work. Environment variables are usually hidden due to sensitive information. It's very important that you don't push the `.env` file to Github (this can be secured by adding `.env` to the .gitignore-file). The variables that are declared in the `.env` file needs to be added to the Heroku config vars. Don't forget to do necessary migrations before trying to run the server.
+7. The next step is to set up the environment file so that the project knows what variables that needs to be used for it to work. Environment variables are usually hidden due to sensitive information. It's very important that you don't push the `.env` file to Github (this can be secured by adding `.env` to the .gitignore-file). The variables that are declared in the `.env` file needs to be added to the Heroku config vars. Don't forget to do necessary migrations before trying to run the server.
 
 * ```python manage.py migrate``` - This will do the necessary migrations.
 * ```python manage.py runserver```
@@ -903,7 +908,6 @@ To clone and set up this project you need to follow the steps below.
 # Acknowledgements
 
 This site was created as part of Portfolio Project #5 (Full-Stack Tolkin) for the Diploma in Full Stack Software Development at the [Code Institute](https://www.codeinstitute.net). I would like to express my gratitude to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for providing valuable feedback throughout the project.
-
 
 *Adeyemo Alakija, 2024*
 

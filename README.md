@@ -114,11 +114,16 @@ To create an intuitive and visually appealing representation of the database sch
 
 ## Wireframes
 
-The wireframes for the website were meticulously crafted using the [Draw.io](https://draw.io) software, encompassing both desktop and mobile interfaces. Throughout the wireframing phase, the text content remained flexible, allowing for adjustments and improvements to enhance the final design. It's important to note that the finalized design may differ slightly from the initial wireframes, as deliberate design decisions were made to optimize aesthetics and user experience.
+The wireframes for the website were meticulously crafted using the [Draw.io](https://draw.io) software, encompassing desktop interface. Throughout the wireframing phase, the text content remained flexible, allowing for adjustments and improvements to enhance the final design. It's important to note that the finalized design may differ slightly from the initial wireframes, as deliberate design decisions were made to optimize aesthetics and user experience.
 
 <details><summary><b>Wireframes</b></summary>
 
-![Wireframes](assets/images/wireframe.png)
+![Wireframes_1](screenshots/1_wireframe_home_page.png)
+![Wireframes_2](screenshots/2_wireframe_home_page.png)
+![Wireframes_3](screenshots/3_wireframe_login_page.png)
+![Wireframes_4](screenshots/4_wireframe_register_page.png)
+![Wireframes_5](screenshots/5_wireframe_register_page.png)
+
 </details><br/>
 
 ## User Stories

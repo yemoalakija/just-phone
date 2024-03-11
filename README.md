@@ -303,7 +303,7 @@ The footer area includes short information about justPhones builder.
 
 <details><summary><b>Footer</b></summary>
 
-![Footer](assets/images/footer.png)
+![Footer](screenshots/footer.png)
 </details><br/>
 
 ### **Flash Messages and confirmation pages to the user**
@@ -312,10 +312,12 @@ The sites incorporates flash messages and confirmation pages before and when an 
 
 <details><summary><b>Confirmation Messages</b></summary>
 
-![Login to review](assets/images/success_1.png)
-![Can't review if you already reviewed the same product](assets/images/success_2.png)
-![Payment process](assets/images/success_3.png)
-![Login to make a purchase](assets/images/success_4.png)
+![Login to review](screenshots/alert_msg1.png)
+![Can't review if you already reviewed the same product](screenshots/alert_msg2.png)
+![Incorrect password](screenshots/alert_msg3.png)
+![Network Error](screenshots/alert_msg4.png)
+![Product deletion](screenshots/alert_msg5.png)
+![Deleting a user by an admin](screenshots/alert_msg6.png)
 </details><br/>
 
 ### Features Left to Implement
@@ -369,7 +371,7 @@ The libraries used in this project are located in the requirements.txt file and 
 * [dj3-cloudinary-storage](https://pypi.org/project/dj3-cloudinary-storage/) - Django Cloudinary Storage is a Django package that facilitates integration with Cloudinary by implementing Django Storage API.
 * [Django](https://pypi.org/project/Django/) - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
 * [django-allauth](https://pypi.org/project/django-allauth/) - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
-* [django-crispy-forms](https://pypi.org/project/django-crispy-forms/) - Used to integrate Django DRY forms in the project.
+* [django-resized](https://pypi.org/project/django-resized/) - Used to integrate image resiziing to specified size in the project.
 * [django-extensions](https://pypi.org/project/django-extensions/) - Django Extensions is a collection of custom extensions for the Django Framework.
 * [gunicorn](https://pypi.org/project/gunicorn/) - Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX. It’s a pre-fork worker model ported from Ruby’s Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resource usage, and fairly speedy.
 * [oauthlib](https://pypi.org/project/oauthlib/) - OAuthLib is a framework which implements the logic of OAuth1 or OAuth2 without assuming a specific HTTP request object or web framework.

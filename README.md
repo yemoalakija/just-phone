@@ -10,7 +10,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
 
 ## Table of Content
 
-- [**justPhones | WebApp**](#--justphones--webapp)
+- [**  justPhones | WebApp**](#--justphones--webapp)
   - [Table of Content](#table-of-content)
   - [**Project**](#project)
   - [Objective](#objective)
@@ -25,6 +25,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
     - [Site User](#site-user)
     - [Site Admin](#site-admin)
   - [Site Structure](#site-structure)
+  - [User Experience](#user-experience)
   - [Design Choices](#design-choices)
 - [**Features**](#features)
   - [**Existing Features**](#existing-features)
@@ -44,6 +45,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
   - [Libraries](#libraries)
 - [Testing](#testing)
   - [Testing User Stories](#testing-user-stories)
+  - [User Stories](#user-stories-1)
   - [Code Validation](#code-validation)
     - [Markup Validation](#markup-validation)
     - [CSS Validaton](#css-validaton)
@@ -63,6 +65,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
   - [Deployment To Heroku](#deployment-to-heroku)
   - [How To Fork The Repository On GitHub](#how-to-fork-the-repository-on-github)
   - [Cloning And Setting Up This Project](#cloning-and-setting-up-this-project)
+  - [Cloning and Setting Up the Project](#cloning-and-setting-up-the-project)
 - [Credits](#credits)
   - [Content](#content)
   - [Technical](#technical)
@@ -104,7 +107,7 @@ To create an intuitive and visually appealing representation of the database sch
 
 <details><summary><b>Database Schema</b></summary>
 
-![Database Schema](assets/images/database_schema.png)
+![Database Schema](screenshots/databaseschema.png)
 </details><br/>
 
 # **User Experience (UX)**

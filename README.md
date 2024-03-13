@@ -772,6 +772,10 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 <details><summary><b>Heroku Step 23</b></summary>
 
 ![Heroku Step 23](screenshots/heroku_23.png)
+
+Then we set the below in `urls.py` files for Django to serve React build static.
+
+![urls.py settings](screenshots/urls_settings.png)
 </details><br />
 
 24. Almost there, we have just a couple of steps left. Now it's time to link the file to the Heroku templates directory.

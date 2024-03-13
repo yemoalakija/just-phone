@@ -150,17 +150,14 @@ The user stories for this project are presented below to provide clarity on the 
 |  | | |
 |:-------:|:--------|:--------|
 | As a Site Admin | I can log out from the site so that I can feel safe that nobody can access my information | &check; |
-| As a Site Admin | I can create, read, update and delete reviews so that I can manage my review content | &check; |
-| As a Site Admin | I can approve reviews so that I can secure high quality of the content | &check; |
-| As a Site Admin | I can approve and disapprove comments so that I can secure a safe environment for the Site Users | &check; |
-| As a Site Admin | I can create draft reviews so that I can finish writing the content later | &check; |
-| As a Site Admin | I can access an admin area so that I can get a general understanding of logged in users, number of likes and number of posts | &check; |
+| As a Site Admin | I can create, update and delete products as well as user account | &check; |
+| As a Site Admin | I can approve users orders/purchases | &check; |
+| As a Site Admin | I can access an admin area so that I can get a general understanding of logged in users, number of order and purchases | &check; |
 | As a Site Admin | I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | &check; |
 
 [Back to top](<#table-of-content>)
 
 ## Site Structure
-
 
 ## User Experience
 
@@ -182,7 +179,7 @@ The color scheme chosen for justPhones site was based on Bootstrap colour scheme
 ![Color Palette image_2](screenshots/colour_02.png)
 ![Color Palette image_3](screenshots/colour_03.png)
 
-</details><br/>
+</details><br />
 
 * ### Typography
 

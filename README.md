@@ -588,21 +588,21 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Deployment - Step 1</b></summary>
 
-![Heroku Deployment Step 1](assets/images/heroku_01.png)
+![Heroku Deployment Step 1](screenshots/heroku_01.png)
 </details><br />
 
 2. Fill in the needed details as stated in the screenshot below and then click 'Create Repository From Template'.
 
 <details><summary><b>Heroku Deployment - Step 2</b></summary>
 
-![Heroku Deployment Step 2](assets/images/heroku_02.png)
+![Heroku Deployment Step 2](screenshots/heroku_02.png)
 </details><br />
 
 3. When the repository creation is done click 'GitHub' as stated in the screenshot below to create a codespace.
 
 <details><summary><b>Heroku Deployment - Step 3</b></summary>
 
-![Heroku Deployment Step 3](assets/images/heroku_03.png)
+![Heroku Deployment Step 3](screenshots/heroku_03.png)
 </details><br />
 
 4. Now it's time to install Django and the supporting libraries that are needed. Type the commands below to do this.
@@ -613,7 +613,7 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Deployment - Step 4</b></summary>
 
-![Heroku Deployment Step 4](assets/images/heroku_04.png)
+![Heroku Deployment Step 4](screenshots/heroku_04.png)
 </details><br />
 
 5. When Django and the libraries are installed we need to create a requirements file.
@@ -622,7 +622,7 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Deployment - Step 5</b></summary>
 
-![Heroku Deployment Step 5](assets/images/heroku_05.png)
+![Heroku Deployment Step 5](screenshots/heroku_05.png)
 </details><br />
 
 6. Now it's time to create the project.
@@ -631,7 +631,7 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Deployment - Step 6</b></summary>
 
-![Heroku Deployment Step 6](assets/images/heroku_06.png)
+![Heroku Deployment Step 6](screenshots/heroku_06.png)
 </details><br />
 
 7. When the project is created we can now create the application.
@@ -640,14 +640,14 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Deployment - Step 7</b></summary>
 
-![Heroku Deployment Step 7](assets/images/heroku_07.png)
+![Heroku Deployment Step 7](screenshots/heroku_07.png)
 </details><br />
 
 8. We now need to add the application to settings.py
 
 <details><summary><b>Heroku Deployment - Step 8</b></summary>
 
-![Heroku Deployment Step 8](assets/images/heroku_08.png)
+![Heroku Deployment Step 8](screenshots/heroku_08.png)
 </details><br />
 
 8. Now it is time to do our first migration and run the server to test that everything works as expected. This is done by writing the commands below.
@@ -663,29 +663,29 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Step 09</b></summary>
 
-![Heroku Step 9](assets/images/heroku_09.png)
+![Heroku Step 9](screenshots/heroku_09.png)
 </details><br />
 
 10. Now it's time to enter an application name that needs to be unique. When you have chosen the name, choose your region and click 'Create app".
 
 <details><summary><b>Heroku Step 10</b></summary>
 
-![Heroku Step 10](assets/images/heroku_10.png)
+![Heroku Step 10](screenshots/heroku_10.png)
 </details><br />
 
 11. To add a database to the app you need to go to the resources tab ->> add-ons, search for 'Heroku Postgres' and add it.
 
 <details><summary><b>Heroku Step 11</b></summary>
 
-![Heroku Step 11](assets/images/heroku_11_1.png)
-![Heroku Step 11](assets/images/heroku_11_2.png)
+![Heroku Step 11](screenshots/heroku_11_1.png)
+![Heroku Step 11](screenshots/heroku_11_2.png)
 </details><br />
 
 12. Go to the settings tab and click on the reveal Config Vars button. Copy the text from `DATABASE_URL` (because we are going to need it in the next step).
 
 <details><summary><b>Heroku Step 12</b></summary>
 
-![Heroku Step 12](assets/images/heroku_12.png)
+![Heroku Step 12](screenshots/heroku_12.png)
 </details><br />
 
 13. Go back to your codespace and create a new `.env` file in the top level directory. Then add these rows.
@@ -696,14 +696,14 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Step 13</b></summary>
 
-![Heroku Step 13](assets/images/heroku_13.png)
+![Heroku Step 13](screenshots/heroku_13.png)
 </details><br />
 
 14.  Now we are going to head back to Heroku to add the specified environemnt variables to config vars. See screenshot below.
 
 <details><summary><b>Heroku Step 14</b></summary>
 
-![Heroku Step 14](assets/images/heroku_14.png)
+![Heroku Step 14](screenshots/heroku_14.png)
 </details><br />
 
 15. Now we have some preparations to do connected to our environment and settings.py file. In the settings.py, add the following code:
@@ -718,7 +718,7 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Step 15</b></summary>
 
-![Heroku Step 15](assets/images/heroku_15.png)
+![Heroku Step 15](screenshots/heroku_15.png)
 </details><br />
 
 16. In the settings file, remove the insecure secret key and replace it with:
@@ -726,21 +726,21 @@ The project was deployed to [Heroku](https://www.heroku.com). To deploy, please 
 
 <details><summary><b>Heroku Step 16</b></summary>
 
-![Heroku Step 16](assets/images/heroku_16.png)
+![Heroku Step 16](screenshots/heroku_16.png)
 </details><br />
 
 17.  Now we need to comment out the old database setting in the settings.py file (this is because we are going to use the postgres database instead of the sqlite3 database).
 
 <details><summary><b>Heroku Step 17 1/2</b></summary>
 
-![Heroku Step 17](assets/images/heroku_17_1.png)
+![Heroku Step 17](screenshots/heroku_17_1.png)
 </details><br />
 
 Now, add the link to the DATABASE_URL that we added to the environment file earlier.
 
 <details><summary><b>Heroku Step 17 2/2</b></summary>
 
-![Heroku Step 17](assets/images/heroku_17_2.png)
+![Heroku Step 17](screenshots/heroku_17_2.png)
 </details><br />
 
 18. Save all your fields and migrate the changes.
@@ -757,42 +757,42 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 
 <details><summary><b>Heroku Step 21</b></summary>
 
-![Heroku Step 21](assets/images/heroku_21.png)
+![Heroku Step 21](screenshots/heroku_21.png)
 </details><br />
 
 22. Let's head back to our settings.py file on codespace. We now need to add our Cloudinary Libraries we installed earlier to the installed apps. Here it is important to get the order correct.
 
 <details><summary><b>Heroku Step 22</b></summary>
 
-![Heroku Step 22](assets/images/heroku_22.png)
+![Heroku Step 22](screenshots/heroku_22.png)
 </details><br />
 
 23. For Django to be able to understand how to use and where to store static files we need to add some extra rows to the settings.py file.
 
 <details><summary><b>Heroku Step 23</b></summary>
 
-![Heroku Step 23](assets/images/heroku_23.png)
+![Heroku Step 23](screenshots/heroku_23.png)
 </details><br />
 
 24. Almost there, we have just a couple of steps left. Now it's time to link the file to the Heroku templates directory.
 
 <details><summary><b>Heroku Step 24</b></summary>
 
-![Heroku Step 24](assets/images/heroku_24.png)
+![Heroku Step 24](screenshots/heroku_24.png)
 </details><br />
 
 25. Let's change the templates directory to `TEMPLATES_DIR` in the teamplates array.
 
 <details><summary><b>Heroku Step 25</b></summary>
 
-![Heroku Step 25](assets/images/heroku_25.png)
+![Heroku Step 25](screenshots/heroku_25.png)
 </details><br />
 
 26. To be able to get the application to work through Heroku we also need to add our Heroku app and localhost to which hosts that are allowed.
 
 <details><summary><b>Heroku Step 26</b></summary>
 
-![Heroku Step 26](assets/images/heroku_26.png)
+![Heroku Step 26](screenshots/heroku_26.png)
 </details><br />
 
 27. For this project, we'll use `whitenoise` package to take care of our staticfiles.
@@ -832,7 +832,7 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 
 <details><summary><b>Heroku Step 31</b></summary>
 
-![Heroku Step 31](assets/images/heroku_31.png)
+![Heroku Step 31](screenshots/heroku_31.png)
 </details><br />
 
 The live link to the `justPhones` site on Heroku an be found [here](https://justphone-porfolio-project5-049f39193013.herokuapp.com). And the Github repository can be found [here](https://github.com/yemoalakija/just-phone).
@@ -847,7 +847,7 @@ It is possible to do a independent copy of a GitHub Repository by forking the Gi
 
 <details><summary><b>Github Fork</b></summary>
 
-![Fork](assets/images/github_fork.png)
+![Fork](screenshots/github_fork.png)
 </details><br />
 
 [Back to top](<#table-of-content>)
@@ -866,7 +866,7 @@ To clone and set up this project, follow the steps below:
 
 <details><summary><b>GitHub Clone</b></summary>
 
-![Clone](assets/images/github_clone_01.png)
+![Clone](screenshots/github_clone_01.png)
 </details><br />
 
 5. Navigate to the `frontend` directory and run `npm install` to set up the required node_modules. Then, go back to the parent directory where the backend files are located.
@@ -886,7 +886,7 @@ To clone and set up this project, follow the steps below:
 
 <details><summary><b>Setup .env</b></summary>
 
-![Clone](assets/images/github_clone_02.png)
+![Clone](screenshots/github_clone_02.png)
 </details><br />
 
 [Back to top](<#table-of-content>)

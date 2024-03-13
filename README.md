@@ -65,7 +65,6 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
   - [Deployment To Heroku](#deployment-to-heroku)
   - [How To Fork The Repository On GitHub](#how-to-fork-the-repository-on-github)
   - [Cloning And Setting Up This Project](#cloning-and-setting-up-this-project)
-  - [Cloning and Setting Up the Project](#cloning-and-setting-up-the-project)
 - [Credits](#credits)
   - [Content](#content)
   - [Technical](#technical)
@@ -179,7 +178,10 @@ The color scheme chosen for justPhones site was based on Bootstrap colour scheme
 
 <details><summary><b>Color Scheme</b></summary>
 
-![Color Palette image](assets/images/coolors_palette.png)
+![Color Palette image_1](screenshots/colour_01.png)
+![Color Palette image_2](screenshots/colour_02.png)
+![Color Palette image_3](screenshots/colour_03.png)
+
 </details><br/>
 
 * ### Typography
@@ -230,12 +232,12 @@ All of the links that are visible to a not logged in user plus the ones below.
 
 <details><summary><b>Navigation - User Logged In</b></summary>
 
-![Navigation - User Logged In](assets/images/navbar_logged_in.png)
+![Navigation - User Logged In](screenshots/navbar_logged_in.png)
 </details>
 
 <details><summary><b>Navigation - Small Screen User Not Logged In</b></summary>
 
-![Navigation - User Not Logged In](assets/images/small_screen_navbar_logged_in.png)
+![Navigation - User Not Logged In](screenshots/navbar_small_logged_in.png)
 </details><br/>
 
 *Links that are visible if a user is an administrator*
@@ -773,9 +775,6 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 
 ![Heroku Step 23](screenshots/heroku_23.png)
 
-Then we set the below in `urls.py` files for Django to serve React build static.
-
-![urls.py settings](screenshots/urls_settings.png)
 </details><br />
 
 24. Almost there, we have just a couple of steps left. Now it's time to link the file to the Heroku templates directory.
@@ -783,6 +782,11 @@ Then we set the below in `urls.py` files for Django to serve React build static.
 <details><summary><b>Heroku Step 24</b></summary>
 
 ![Heroku Step 24](screenshots/heroku_24.png)
+
+Then we set the below in `urls.py` files for Django to serve React build static.
+
+![urls.py settings](screenshots/urls_settings.png)
+
 </details><br />
 
 25. Let's change the templates directory to `TEMPLATES_DIR` in the teamplates array.
@@ -858,9 +862,6 @@ It is possible to do a independent copy of a GitHub Repository by forking the Gi
 
 ## Cloning And Setting Up This Project
 
-
-## Cloning and Setting Up the Project
-
 To clone and set up this project, follow the steps below:
 
 1. Open the repository and click on the "Code" tab.
@@ -901,7 +902,7 @@ To clone and set up this project, follow the steps below:
 
 * All text content written by Adeyemo Alakija.
 
-* Blog images taken from [Google](https://www.google.com)
+* Product images taken from [Google](https://www.google.com) as well as respective official product sites.
 
 * Template for read.me provided by Code Institute (*with some additional changes that my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/))* suggested.
 
@@ -913,7 +914,7 @@ To clone and set up this project, follow the steps below:
 
 # Acknowledgements
 
-This site was created as part of Portfolio Project #5 (Full-Stack Tolkin) for the Diploma in Full Stack Software Development at the [Code Institute](https://www.codeinstitute.net). I would like to express my gratitude to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for providing valuable feedback throughout the project.
+This site was created for educational purposes and as part of Portfolio Project #5 (Full-Stack Tolkin) for the Diploma in Full Stack Software Development at the [Code Institute](https://www.codeinstitute.net). I would like to express my gratitude to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for providing valuable feedback throughout the project.
 
 *Adeyemo Alakija, 2024*
 

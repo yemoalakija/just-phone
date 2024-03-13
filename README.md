@@ -10,7 +10,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
 
 ## Table of Content
 
-- [**  justPhones | WebApp**](#--justphones--webapp)
+- [**justPhones | WebApp**](#--justphones--webapp)
   - [Table of Content](#table-of-content)
   - [**Project**](#project)
   - [Objective](#objective)

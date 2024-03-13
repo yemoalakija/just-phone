@@ -584,7 +584,7 @@ Additional testing of the application was conducted by people outside of the sof
 
 The project was deployed to [Heroku](https://www.heroku.com). To deploy, please follow the process below:
 
-1. To begin with we need to create a GitHub repository from the [this repo](https://github.com/yemoalakija/just-phone.git) by following the link and then click 'Use this template'.
+1. To begin with, we need to create a GitHub repository from the [this repo](https://github.com/yemoalakija/just-phone.git) by following the link and then click 'Use this template'.
 
 <details><summary><b>Heroku Deployment - Step 1</b></summary>
 
@@ -767,7 +767,7 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 ![Heroku Step 22](screenshots/heroku_22.png)
 </details><br />
 
-23. For Django to be able to understand how to use and where to store static files we need to add some extra rows to the settings.py file.
+23. For Django to be able to understand how to use and where to store static files we need to add some extra rows to the settings.py file and relate it to the frontend (React build static files) since we're deploying our app in one domain.
 
 <details><summary><b>Heroku Step 23</b></summary>
 

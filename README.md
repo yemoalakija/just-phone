@@ -354,7 +354,6 @@ The sites incorporates flash messages and confirmation pages before and when an 
 * [Bootstrap](https://getbootstrap.com/) - A CSS framework that helps building solid, responsive, mobile-first sites
 * [Django](https://www.djangoproject.com/) - A model-view-template framework
 used to create the justPhones template.
-& [Redux](https://redux.js.org) - Heavily liberate the power of Redux, Redux Dev tools to build the site store.
 * [Draw.io](https://draw.io/) - Used to create the wireframe.
 * [Github](https://github.com/) - Used to host and edit the website.
 * [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal in [GitHub Codespace](https://www.github.com) used to create, edit and push changes to the GitHub repository.
@@ -374,7 +373,9 @@ used to create the justPhones template.
 
 [Back to top](<#table-of-content>)
 
-The libraries used in this project are located in the requirements.txt file and have been documented below
+The libraries used in this project are located in the requirements.txt and package.json in the frotntend director and have been documented below
+
+Backend Libraries:
 
 * [asgiref](https://pypi.org/project/asgiref/) - ASGI is a standard for Python asynchronous web apps and servers to communicate with each other, and positioned as an asynchronous successor to WSGI.
 * [cloudinary](https://pypi.org/project/cloudinary/) - The Cloudinary Python SDK allows you to quickly and easily integrate your application with Cloudinary. Effortlessly optimize, transform, upload and manage your cloud's assets.
@@ -394,14 +395,31 @@ The libraries used in this project are located in the requirements.txt file and 
 * [cryptography-3.3.23](https://pypi.org/project/cryptography/3.3/) - Cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 * [whitenoise](https://whitenoise.readthedocs.io/en/latest/) - Whitenoise, radically simplified static file serving for Python web apps. I used this to serve the static files in this project.
 
+Frontend Libraries:
+
+* [jest-dom](https://jest.dev/) - Jest-DOM is a library for testing React components that provides custom matchers for DOM elements.
+* [react](https://react.dev/) - React is a JavaScript library for building web and native user interfaces using components.
+* [axios](https://axios.dev/) - Axios is a popular library for making HTTP requests from the browser or Node.js.
+* [react-bootstrap](https://react-bootstrap.dev/)- React-Bootstrap is a library that provides Bootstrap components as React components.
+* [react-dom](https://react.dev/): - ReactDOM is the package that allows React to interact with the DOM in web applications.
+* [react-paypal-button-v2](https://paypal.github.io/react-paypal-button-v2) - React-Paypal-Button-V2 is a library for integrating PayPal buttons into React applications.
+* [react-redux](https://react-redux.js.org/) - React-Redux is the official Redux binding for React, enabling seamless integration of Redux with React components.
+* [react-router-bootstrap](https://reactrouter.com/web/guides/quick-start) - React-Router-Bootstrap provides integration between React Router and Bootstrap for navigation in React applications.
+* [react-router-dom](https://reactrouter.com/web/guides/quick-start) - React-Router-DOM is the DOM bindings for React Router, enabling routing in single-page applications.
+* [react-scripts](https://create-react-app.dev/docs/getting-started/) - React-Scripts are scripts and configurations used by Create-React-App to build and run React applications.
+* [redux](https://redux.js.org/) Redux is a predictable state container for JavaScript apps, often used with React to manage application state.
+* [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) - Redux DevTools Extension is a tool that allows you to inspect and debug Redux state changes in your application.
+* [redux-thunk](https://github.com/reduxjs/redux-thunk) Redux Thunk is a middleware that allows you to write action creators that return functions instead of plain objects.
+* [web-vitals](https://web.dev/vitals/) Web Vitals are essential metrics related to user experience on the web, focusing on loading speed, interactivity, and visual stability.
+
 # Testing
 
 ## Testing User Stories
 
 ## User Stories
 
-| User Type      | User Story                                                                                          | Completed |
-|----------------|-----------------------------------------------------------------------------------------------------|-----------|
+| User Type      | User Story      | Completed |
+|----------------|-----------------------|-----------|
 | Site User      | View a list of products                                                                             | &check;   |
 | Site User      | View the details of a specific product                                                              | &check;   |
 | Site User      | Add products to cart                                                                                | &check;   |

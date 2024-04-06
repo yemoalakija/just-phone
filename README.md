@@ -132,18 +132,18 @@ The user stories for this project are presented below to provide clarity on the 
 ### Site User
 |  | | |
 |:-------:|:--------|:--------|
-| As a Site User | I can view a list of available mobile phones | &check; |
-| As a Site User | I can search for a specific mobile phone | &check; |
-| As a Site User | I can view the details of a specific mobile phone | &check; |
-| As a Site User | I can add a mobile phone to my cart | &check; |
-| As a Site User | I can view the items in my cart | &check; |
-| As a Site User | I can proceed to checkout and make a purchase | &check; |
-| As a Site User | I can create an account to save my personal information | &check; |
-| As a Site User | I can be sure that my personal details are safe when purchasing from the site | &check; |
-| As a Site User | I can view my order history | &check; |
-| As a Site User | I can leave a review for a purchased mobile phone | &check; |
-| As a Site User | I can log out from the site | &check; |
-| As a Site User | I can receive visual feedback when interacting with the site | &check; |
+| As a Site User | [I can view a list of available mobile phones](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58849389) | &check; |
+| As a Site User | [I can search for a specific mobile phone](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898510) | &check; |
+| As a Site User | [I can view the details of a specific mobile phone](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898514) | &check; |
+| As a Site User | [I can add a mobile phone to my cart](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898521) | &check; |
+| As a Site User | [I can view the items in my cart](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898525) | &check; |
+| As a Site User | [I can proceed to checkout and make a purchase](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898533) | &check; |
+| As a Site User | [I can create an account to save my personal information](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898538) | &check; |
+| As a Site User | [I can be sure that my personal details are safe when purchasing from the site](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898541) | &check; |
+| As a Site User | [I can view my order history](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898552) | &check; |
+| As a Site User | [I can leave a review for a purchased mobile phone](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898556) | &check; |
+| As a Site User | [I can log out from the site](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898572) | &check; |
+| As a Site User | [I can receive visual feedback when interacting with the site](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898580) | &check; |
 
 ### Site Admin
 

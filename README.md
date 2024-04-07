@@ -10,7 +10,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
 
 ## Table of Content
 
-- [**  justPhones | WebApp**](#--justphones--webapp)
+- [**justPhones | WebApp**](#--justphones--webapp)
   - [Table of Content](#table-of-content)
   - [**Project**](#project)
   - [Objective](#objective)
@@ -94,8 +94,9 @@ I've been using the application [GitHub project](https://github.com/users/yemoal
 
 ![GitHub Project](screenshots/github_project_workflow.png)
 
-[User story](https://github.com/users/yemoalakija/projects/3/views/1)
-![User Stories](screenshots/user_story.png)
+[User story](https://github.com/users/yemoalakija/projects/3/views/2)
+![User Stories](screenshots/user_storyy.png)
+![User Stories](screenshots/user_storyy_2.png)
 </details><br/>
 
 [Back to top](<#table-of-content>)
@@ -132,35 +133,32 @@ The user stories for this project are presented below to provide clarity on the 
 ### Site User
 |  | | |
 |:-------:|:--------|:--------|
-| As a Site User | I can view a list of available mobile phones | &check; |
-| As a Site User | I can search for a specific mobile phone | &check; |
-| As a Site User | I can view the details of a specific mobile phone | &check; |
-| As a Site User | I can add a mobile phone to my cart | &check; |
-| As a Site User | I can view the items in my cart | &check; |
-| As a Site User | I can proceed to checkout and make a purchase | &check; |
-| As a Site User | I can create an account to save my personal information | &check; |
-| As a Site User | I can be sure that my personal details are safe when purchasing from the site | &check; |
-| As a Site User | I can view my order history | &check; |
-| As a Site User | I can leave a review for a purchased mobile phone | &check; |
-| As a Site User | I can log out from the site | &check; |
-| As a Site User | I can receive visual feedback when interacting with the site | &check; |
+| As a Site User | [I can view a list of available mobile phones](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58849389) | &check; |
+| As a Site User | [I can search for a specific mobile phone](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898510) | &check; |
+| As a Site User | [I can view the details of a specific mobile phone](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898514) | &check; |
+| As a Site User | [I can add a mobile phone to my cart](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898521) | &check; |
+| As a Site User | [I can view the items in my cart](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898525) | &check; |
+| As a Site User | [I can proceed to checkout and make a purchase](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898533) | &check; |
+| As a Site User | [I can create an account to save my personal information](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898538) | &check; |
+| As a Site User | [I can be sure that my personal details are safe when purchasing from the site](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898541) | &check; |
+| As a Site User | [I can view my order history](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898552) | &check; |
+| As a Site User | [I can leave a review for a purchased mobile phone](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898556) | &check; |
+| As a Site User | [I can log out from the site](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898572) | &check; |
+| As a Site User | [I can receive visual feedback when interacting with the site](https://github.com/users/yemoalakija/projects/3/views/2?pane=issue&itemId=58898580) | &check; |
 
 ### Site Admin
 
 |  | | |
 |:-------:|:--------|:--------|
 | As a Site Admin | I can log out from the site so that I can feel safe that nobody can access my information | &check; |
-| As a Site Admin | I can create, read, update and delete reviews so that I can manage my review content | &check; |
-| As a Site Admin | I can approve reviews so that I can secure high quality of the content | &check; |
-| As a Site Admin | I can approve and disapprove comments so that I can secure a safe environment for the Site Users | &check; |
-| As a Site Admin | I can create draft reviews so that I can finish writing the content later | &check; |
-| As a Site Admin | I can access an admin area so that I can get a general understanding of logged in users, number of likes and number of posts | &check; |
+| As a Site Admin | I can create, update and delete products as well as user account | &check; |
+| As a Site Admin | I can approve users orders/purchases | &check; |
+| As a Site Admin | I can access an admin area so that I can get a general understanding of logged in users, number of order and purchases | &check; |
 | As a Site Admin | I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | &check; |
 
 [Back to top](<#table-of-content>)
 
 ## Site Structure
-
 
 ## User Experience
 
@@ -182,7 +180,7 @@ The color scheme chosen for justPhones site was based on Bootstrap colour scheme
 ![Color Palette image_2](screenshots/colour_02.png)
 ![Color Palette image_3](screenshots/colour_03.png)
 
-</details><br/>
+</details><br />
 
 * ### Typography
 

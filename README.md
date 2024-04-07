@@ -96,6 +96,7 @@ I've been using the application [GitHub project](https://github.com/users/yemoal
 
 [User story](https://github.com/users/yemoalakija/projects/3/views/2)
 ![User Stories](screenshots/user_storyy.png)
+![User Stories](screenshots/user_storyy_2.png)
 </details><br/>
 
 [Back to top](<#table-of-content>)

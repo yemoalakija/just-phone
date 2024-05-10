@@ -100,6 +100,18 @@ I've been using the application [GitHub project](https://github.com/users/yemoal
 ![User Stories](screenshots/user_storyy_2.png)
 </details><br/>
 
+### Kanban Board
+
+[Kanban Board](https://yemoalakija.kanbantool.com/b/1058523#?) was used for the project workflow along with GitHub Project.
+
+<details><summary><b>Kanban Board</b></summary>
+
+![Kanban_Board_1](screenshots/github_projects.png)
+![Kanban_Board_2](screenshots/user_storyy.png)
+![Kanban_Board_3](screenshots/user_storyy_2.png)
+![Kanban_Board_4](screenshots/user_storyy_2.png)
+</details><br/>
+
 [Back to top](<#table-of-content>)
 
 ### Database Schema

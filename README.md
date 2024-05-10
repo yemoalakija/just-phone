@@ -18,6 +18,7 @@ Immerse yourself in the artistry of this cutting-edge website, a masterpiece bor
   - [Site Owners Goal](#site-owners-goal)
   - [Project Management](#project-management)
     - [GitHub Project](#github-project)
+    - [Kanban Board](#kanban-board)
     - [Database Schema](#database-schema)
 - [**User Experience (UX)**](#user-experience-ux)
   - [Wireframes](#wireframes)
@@ -106,10 +107,10 @@ I've been using the application [GitHub project](https://github.com/users/yemoal
 
 <details><summary><b>Kanban Board</b></summary>
 
-![Kanban_Board_1](screenshots/github_projects.png)
-![Kanban_Board_2](screenshots/user_storyy.png)
-![Kanban_Board_3](screenshots/user_storyy_2.png)
-![Kanban_Board_4](screenshots/user_storyy_2.png)
+![Kanban_Board_1](https://github.com/yemoalakija/just-phone/blob/main/screenshots/Kanban-Screenshot%202024-05-10%20103922.png)
+![Kanban_Board_2](https://github.com/yemoalakija/just-phone/blob/main/screenshots/Kanban-Screenshot%202024-05-10%20103751.png)
+![Kanban_Board_3](https://github.com/yemoalakija/just-phone/blob/main/screenshots/Kanban-Screenshot%202024-05-10%20104226.png)
+![Kanban_Board_4](https://github.com/yemoalakija/just-phone/blob/main/screenshots/Kanban-Screenshot%202024-05-10%20105021.png)
 </details><br/>
 
 [Back to top](<#table-of-content>)
